@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  mssql_test:
+    image: michaelwolfenden/mssql-server-tmpfs:2022-latest
+    environment:
+      SA_PASSWORD: "SuperSecret123!"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1434:1433"
+    volumes:
+      - type: tmpfs
+        target: /var/opt/mssql/data
+      - type: tmpfs
+        target: /var/opt/mssql/log
