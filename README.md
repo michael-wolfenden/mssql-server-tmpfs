@@ -18,6 +18,10 @@ By tagging this repository with a version corresponding to one of the offical [M
 
 2. Pushes the new image to [my docker hub repository](https://hub.docker.com/repository/docker/michaelwolfenden/mssql-server-tmpfs) with that tag ready for use. For example as image `michaelwolfenden/mssql-server-tmpfs:2022-latest`
 
+## Current images
+
+-   `michaelwolfenden/mssql-server-tmpfs:2017-latest`
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
