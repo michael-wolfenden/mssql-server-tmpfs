@@ -22,6 +22,7 @@ By tagging this repository with a version corresponding to one of the offical [M
 
 -   `michaelwolfenden/mssql-server-tmpfs:2017-latest`
 -   `michaelwolfenden/mssql-server-tmpfs:2019-latest`
+-   `michaelwolfenden/mssql-server-tmpfs:2022-latest`
 
 ## License
 
