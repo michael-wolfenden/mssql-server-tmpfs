@@ -16,7 +16,7 @@ By tagging this repository with a version corresponding to one of the offical [M
 
 1. Builds a new image using that Microsoft SQL Server image but with the hack applied (see [dockerfile-template](dockerfile-template))
 
-2. Pushes the new image to [my docker hub repository](https://hub.docker.com/repository/docker/michaelwolfenden/mssql-server-tmpfs) with that tag ready for use. For example as image `michaelwolfenden/mssql-server-tmpfs:2022-latest`
+2. Pushes the new image to [my docker hub repository](https://hub.docker.com/r/michaelwolfenden/mssql-server-tmpfs/) with that tag ready for use. For example as image `michaelwolfenden/mssql-server-tmpfs:2022-latest`
 
 ## Current images
 
